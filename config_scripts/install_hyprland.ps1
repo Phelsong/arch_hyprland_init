@@ -19,7 +19,7 @@ $Desktop = (
     "oh-my-posh", # shell prompt
     # AUDIO,
     "pipewire-audio pipewire-pulse", # audio
-    "pavucontrol-qt"
+    "pavucontrol-qt",
     "pamixer", # audio mixer
     "pacmixer", # audioMixer
     # "DESKTOP" Core,
@@ -34,10 +34,9 @@ $Desktop = (
     "swaync-git", # notification
     "wlogout", # logout menu
     "xfce4-settings",
-    "grim", # Screenshot base
-    "slurp", # screen area select
+    "grim-git slurp-git", # Screenshot base
     "flameshot-git", # Screenshots
-    "wl-screenrec-git", # video record
+    "wayfarer-git", #screen record
     "fastfetch-git", # swap
     "btop-git", # task manager
     "nvtop-git", # GPU Monitor
@@ -54,7 +53,6 @@ $Desktop = (
     "dracula-gtk-theme dracula-icons-git",
     "nordic-kde-git",
     "nordic-theme",
-    "xcursor-simp1e-nord-dark",
     # firewall
     "nftables",
     "shorewall6"
@@ -63,5 +61,6 @@ $Desktop = (
 $utils = (
     "socat",
     "hyprkeys",
+    "nnn",
     "hyprdock"
 )
