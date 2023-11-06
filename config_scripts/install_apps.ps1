@@ -7,6 +7,7 @@ $apps = (
     "yubico-authenticator-bin",
     # DEV APPS
     "visual-studio-code-insiders-bin",
+    "github-desktop-bin",
     # azuredatastudio-bin,
     # jupyterlab-desktop-bin,
     "docker-desktop",
@@ -29,8 +30,8 @@ $apps = (
     # Work
     "teams-for-linux-git", 
     "owa-desktop-bin",
-    "github-desktop-bin",
-    "openconnect-git",
+    "wps-office ttf-wps-fonts",
+    "openconnect networkmanager-openconnect openconnect-sso-git webkit2gtk-4.1 libnma-gtk4",
     # OTHER
     "cue-git", # terminal audio player
     "pyspread", # speadsheets
