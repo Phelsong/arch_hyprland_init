@@ -28,5 +28,7 @@ $drivers = (
     # AUDIO libs
     "pipewire", # explicit
     # Shell
-    "powershell"
+    "powershell",
+    # Encoder
+    "openh264 x264 x265"
 )

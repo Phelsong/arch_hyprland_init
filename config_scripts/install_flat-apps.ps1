@@ -1,9 +1,6 @@
 $flat_apps=(
     "com.github.tchx84.Flatseal",
-    "com.obsproject.Studio",
-    "com.obsproject.Studio.Plugin.Gstreamer", 
-    "com.discordapp.Discord",
-    "com.github.IsmaelMartinez.teams_for_linux",
+    "com.discordapp.Discord", 
     "io.github.fastrizwaan.WineZGUI"
 )
 
