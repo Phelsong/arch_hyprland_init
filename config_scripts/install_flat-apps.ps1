@@ -1,7 +1,5 @@
-$flat_apps=(
-    "com.github.tchx84.Flatseal",
-    "com.discordapp.Discord", 
-    "io.github.fastrizwaan.WineZGUI"
+$flat_apps = (
+    "com.discordapp.Discord"
 )
 
 

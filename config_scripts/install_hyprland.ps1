@@ -2,7 +2,7 @@ $Desktop = (
     # CORE
     "sdbus-cpp", # portal-git dependency
     "xdg-desktop-portal-hyprland-git", # X-portal
-    "qt5-wayland qt5ct qt6ct qt6-wayland", # QT
+    "qt5-wayland qt6-wayland qt5ct qt6ct", # QT
     "kwayland-integration layer-shell-qt pacman-contrib",
     "polkit-kde-agent", # polkit
     "iwd", # wireless daemon
@@ -18,7 +18,6 @@ $Desktop = (
     "kitty-git", # term
     "oh-my-posh", # shell prompt
     # AUDIO,
-    "pipewire-audio-git pipewire-pulse-git pipewire-alsa-git pipewire-x11-bell-git pipewire-ffado-git libpipewire-git pipewire-v4l2-git pipewire-zeroconf-git pipewire-roc-git pipewire-jack-git", # audio
     "pavucontrol-qt",
     "pamixer", # audio mixer
     "pacmixer", # audioMixer
@@ -35,7 +34,6 @@ $Desktop = (
     "cliphist wl-clip-persist python-pyclip", # text/image clipboard
     "swaync-git", # notification
     "wlogout-git", # logout menu
-    "xfce4-settings",
     "grim-git slurp-git", # Screenshot base
     "flameshot-git", # Screenshots
     "wayfarer-git", #screen record
@@ -45,10 +43,10 @@ $Desktop = (
     "lact", # AMDGPU CTL
     "qview-git qtraw qt5-svg qt5-imageformats", # image viewer
     # FILE SYSTEM,
-    "gvfs", # virtual filesystem
+    "gvfs gvfs-smb", # virtual filesystem
     "smb4k ntfs-3g f2fs-tools", # fs
     "partitionmanager", # kde part manager,
-    "thunar thunar-shares-plugin thunar-vcs-plugin thunar-volman ffmpeg-audio-thumbnailer thunar-media-tags-plugin", # file-manager
+    "dolphin", # file-manager
     "bluez bluez-utils", # bluetooth,
     "blueman-git", # bluetooth app,
     #Theme,

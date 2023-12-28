@@ -3,7 +3,7 @@ $extras = (
     #lib32-libdxvk
     "mangohud-git",
     "proton-ge-custom-bin",
-    "gamescope-plus",
+    "gamescope-git",
     "bottles",
     "libation",
     # sql drivers
@@ -15,5 +15,4 @@ $extras = (
     # Utilities
     "ascii-image-converter-git",
     "tplay-git",
-    "fancontrol-gui"
 )

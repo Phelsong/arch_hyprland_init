@@ -26,7 +26,7 @@ $drivers = (
     # DISPLAY_SERVER
     "wayland-git",
     # AUDIO libs
-    "pipewire", # explicit
+    "pipewire-git libpipewire-git pipewire-audio-git pipewire-pulse-git pipewire-alsa-git pipewire-jack-git pipewire-v4l2-git pipewire-ffado-git pipewire-zeroconf-git pipewire-x11-bell-git",
     # Shell
     "powershell",
     # Encoder

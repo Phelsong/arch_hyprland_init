@@ -16,8 +16,7 @@ $apps = (
     "obsidian-bin",
     "kleopatra",
     # GAMING
-    "steam",
-    "discord_arch_electron",
+    "steam steam-native",
     "input-remapper-git",
     ## WINE
     "ttf-ms-win11-auto dxvk-bin vkd3d-git wine-wow64 wine-mono",
