@@ -4,6 +4,9 @@ $apps = (
     "electron",
     # WEB
     "microsoft-edge-dev-bin",
+    # yubi
+	"yubikey-manager",
+	"yubikey-manager-qt",
     "yubico-authenticator-bin",
     # DEV APPS
     "visual-studio-code-insiders-bin",
