@@ -38,8 +38,7 @@ $Desktop = (
     "flameshot-git", # Screenshots
     "wayfarer-git", #screen record
     "fastfetch-git", # swap
-    "btop-git", # task manager
-    "nvtop-git", # GPU Monitor
+    "btop-git rocm-smi-lib", # task manager
     "lact", # AMDGPU CTL
     "qview-git qtraw qt5-svg qt5-imageformats", # image viewer
     # FILE SYSTEM,
