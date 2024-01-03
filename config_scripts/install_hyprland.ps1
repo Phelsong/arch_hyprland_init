@@ -1,16 +1,18 @@
 $Desktop = (
-    # CORE
-    "sdbus-cpp", # portal-git dependency
-    "xdg-desktop-portal-hyprland-git", # X-portal
+    # LIBS
+    "sdbus-cpp", # portal-git dependency, cant be git package
+    "libdrm-git lib32-libdrm-git", #
     "qt5-wayland qt6-wayland qt5ct qt6ct", # QT
     "kwayland-integration layer-shell-qt pacman-contrib",
-    "polkit-kde-agent", # polkit
-    "iwd", # wireless daemon
-    "nwg-look", # gtk settings
     "wlr-randr-git", # wayland compositor util
     "glfw-wayland", # wayland framework
+    "iwd", # wireless daemon
+    # CORE
     "wlroots-git",
+    "xdg-desktop-portal-hyprland-git", # X-portal
+    "polkit-kde-agent", # polkit
     "hyprland-git", # WM
+    "nwg-look", # gtk settings
     # FONTS/TERM,
     "ttf-cascadia-code-nerd", # font in nerd, explicit dependency
     "ttf-jetbrains-mono-nerd", # font in nerd, explicit dependency

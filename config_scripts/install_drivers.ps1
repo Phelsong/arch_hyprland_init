@@ -27,6 +27,9 @@ $drivers = (
     "wayland-git",
     # AUDIO libs
     "pipewire-git libpipewire-git pipewire-audio-git pipewire-pulse-git pipewire-alsa-git pipewire-jack-git pipewire-v4l2-git pipewire-ffado-git pipewire-zeroconf-git pipewire-x11-bell-git",
+    # 32
+    "lib32-pipewire-jack",
+    "gsteamer gstreamer-vaapi-git lib32-gstreamer-vaapi-git",
     # Shell
     "powershell",
     # Encoder
