@@ -7,6 +7,7 @@ $Desktop = (
     "wlr-randr-git", # wayland compositor util
     "glfw-wayland", # wayland framework
     "iwd", # wireless daemon
+    "egl-wayland-git",
     # CORE
     "wlroots-git",
     "xdg-desktop-portal-hyprland-git", # X-portal
