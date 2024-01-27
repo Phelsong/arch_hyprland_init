@@ -4,9 +4,10 @@ $apps = (
     "electron",
     # WEB
     "microsoft-edge-dev-bin",
+    "opera-developer opera-developer-ffmpeg-codecs",
     # yubi
-	"yubikey-manager",
-	"yubikey-manager-qt",
+    "yubikey-manager",
+    "yubikey-manager-qt",
     "yubico-authenticator-bin",
     # DEV APPS
     "visual-studio-code-insiders-bin",
@@ -18,11 +19,6 @@ $apps = (
     "beekeeper-studio-ultimate",
     "obsidian-bin",
     "kleopatra",
-    # GAMING
-    "steam steam-native",
-    "input-remapper-git",
-    ## WINE
-    "ttf-ms-win11-auto dxvk-bin vkd3d-git wine-wow64 wine-mono",
     # RAZER
     "openrazer-driver-dkms-git openrazer-daemon-git python-openrazer",
     "openrgb",
@@ -37,11 +33,38 @@ $apps = (
     # OTHER
     "cue-git", # terminal audio player
     "pyspread", # speadsheets
-    "tidal-hifi-bin", # muzic
+    "tidal-hifi-git", # muzic
     "flatpak flatseal",
     # Waydroid
     "waydroid waydroid-image-gapps waydroid-magisk waydroid-settings-git binder_linux-dkms"
 )
+
+$gaming = (
+    "steam steam-native",
+    "input-remapper-git",
+    "libdxvk dxvk-bin vkd3d-git",
+    "ttf-ms-win11-auto  wine-wow64 wine-mono",
+    "bottles",
+    #lib32-libdxvk
+    "mangohud-git",
+    "proton-ge-custom-bin",
+    "gamescope-git",
+)
+
+
+$extras = (
+    "libation",
+    # sql drivers
+    "msodbcsql17",
+    # editing
+    "davinci-resolve-studio",
+    # etcher
+    "etcher-bin",
+    # Utilities
+    "ascii-image-converter-git",
+    "tplay-git",
+)
+
 
 # Waydroid
 #yay -S waydroid waydroid-image-gapps waydroid-magisk waydroid-settings-git binder_linux-dkms

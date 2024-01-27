@@ -13,7 +13,6 @@ $Desktop = (
     "xdg-desktop-portal-hyprland-git", # X-portal
     "polkit-kde-agent", # polkit
     "hyprland-git", # WM
-    "nwg-look", # gtk settings
     # FONTS/TERM,
     "ttf-cascadia-code-nerd", # font in nerd, explicit dependency
     "ttf-jetbrains-mono-nerd", # font in nerd, explicit dependency
@@ -27,6 +26,10 @@ $Desktop = (
     # video
     "xwaylandvideobridge-bin",
     # "DESKTOP" Core,
+	## nwg
+	"nwg-look", # gtk settings
+	"nwg-displays nwg-icon-picker nwg-drawer nwg-icon-picker", 
+	##
     "network-manager-applet", # network
     "ly-git", # greeter
     "waybar-hyprland-git", # taskbar
@@ -63,6 +66,6 @@ $Desktop = (
 $utils = (
     "socat",
     "hyprkeys",
-    "nnn",
+    "yazi",
     "hyprdock"
 )
