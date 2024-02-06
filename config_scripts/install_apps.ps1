@@ -9,6 +9,7 @@ $apps = (
     "yubikey-manager",
     "yubikey-manager-qt",
     "yubico-authenticator-bin",
+    "yubico-piv-tool",
     # DEV APPS
     "visual-studio-code-insiders-bin",
     "github-desktop-bin",
@@ -63,6 +64,7 @@ $extras = (
     # Utilities
     "ascii-image-converter-git",
     "tplay-git",
+    "focus-bin"
 )
 
 

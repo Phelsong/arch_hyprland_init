@@ -2,7 +2,7 @@ $Desktop = (
     # LIBS
     "sdbus-cpp", # portal-git dependency, cant be git package
     "libdrm-git lib32-libdrm-git", #
-    "qt5-wayland qt6-wayland qt5ct qt6ct", # QT
+    "qt5-wayland qt6-wayland qt5ct-kde qt6ct", # QT
     "kwayland-integration layer-shell-qt pacman-contrib",
     "wlr-randr-git", # wayland compositor util
     "glfw-wayland", # wayland framework
@@ -25,10 +25,6 @@ $Desktop = (
     "pacmixer", # audioMixer
     # video
     "xwaylandvideobridge-bin",
-    # "DESKTOP" Core,
-	## nwg
-	"nwg-look", # gtk settings
-	"nwg-displays nwg-icon-picker nwg-drawer nwg-icon-picker", 
 	##
     "network-manager-applet", # network
     "ly-git", # greeter
@@ -43,15 +39,11 @@ $Desktop = (
     "grim-git slurp-git", # Screenshot base
     "flameshot-git", # Screenshots
     "wayfarer-git", #screen record
-    "fastfetch-git", # swap
-    "btop-git rocm-smi-lib", # task manager
-    "lact", # AMDGPU CTL
-    "qview-git qtraw qt5-svg qt5-imageformats", # image viewer
     # FILE SYSTEM,
     "gvfs gvfs-smb", # virtual filesystem
     "smb4k ntfs-3g f2fs-tools", # fs
     "partitionmanager", # kde part manager,
-    "dolphin", # file-manager
+
     "bluez bluez-utils", # bluetooth,
     "blueman-git", # bluetooth app,
     #Theme,
@@ -63,9 +55,17 @@ $Desktop = (
     "shorewall6"
 )
 
-$utils = (
+$shell = (
     "socat",
     "hyprkeys",
     "yazi",
-    "hyprdock"
+    "hyprdock",
+    "fastfetch-git", # swap
+    "btop-git rocm-smi-lib", # task manager
+    ## nwg
+	"nwg-look", # gtk settings
+	"nwg-displays nwg-icon-picker nwg-drawer nwg-icon-picker nwg-panel",
+    "gtklock-git wlsunset-git nwg-shell-config"
+    "lact", # AMDGPU CTL
+    "qview-git qtraw qt5-svg qt5-imageformats", # image viewer
 )

@@ -13,7 +13,10 @@ rustup default stable
 #
 foreach ($pkg in $Desktop) {
     yay -S $pkg --no-confirm
-} 
+}
+foreach ($pkg in $shell) {
+    yay -S $pkg --no-confirm
+}
 #
 foreach ($pkg in $apps) {
     yay -S $pkg --no-confirm
