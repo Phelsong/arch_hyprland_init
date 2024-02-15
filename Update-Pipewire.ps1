@@ -1,3 +1,2 @@
-yay -S pipewire-audio-git pipewire-pulse-git pipewire-alsa-git pipewire-jack-git pipewire-v4l2-git pipewire-ffado-git pipewire-zeroconf-git pipewire-x11-bell-git libcamera libcamera-ipa
-#yay -S "pipewire-git lib-pipewire-git pipewire-audio-git pipewire-pulse-git pipewire-alsa-git pipewire-jack-git pipewire-v4l2-git pipewire-ffado-git pipewire-zeroconf-git pipewire-x11-bell-git libcamera libcamera-ipa"
-
+yay -S pipewire lib-pipewire pipewire-audio pipewire-pulse pipewire-alsa pipewire-jack pipewire-ffado pipewire-v4l2 pipewire-zeroconf pipewire-x11-bell alsa-card-profiles libcamera-ipa libcamera lib32-pipewire lib32-libpipewire lib32-pipewire-jack
+#yay -S --force  pipewire-git libpipewire-git lib32-libpipewire-git pipewire-audio-git pipewire-pulse-git pipewire-alsa-git pipewire-jack-git pipewire-v4l2-git pipewire-ffado-git pipewire-zeroconf-git pipewire-x11-bell-git libcamera-git libcamera-ipa-git
