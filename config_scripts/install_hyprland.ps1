@@ -22,17 +22,16 @@ $Desktop = (
     # AUDIO,
     "pavucontrol-qt",
     "pamixer", # audio mixer
-    "pacmixer", # audioMixer
     # video
     "xwaylandvideobridge-bin",
-	##
+    ##
     "network-manager-applet", # network
     "ly-git", # greeter
     "waybar-hyprland-git", # taskbar
     "swww-git", # wallpaper-hyprland
     "waypaper-git", # wallpaper picker gui
     "swaylock-effects-git", # lock screen effects
-    "tofi-git", # app launcher
+    "rofi-lbonn-wayland-git", # app launcher
     "cliphist wl-clip-persist python-pyclip", # text/image clipboard
     "swaync-git", # notification
     "wlogout-git", # logout menu
@@ -43,7 +42,6 @@ $Desktop = (
     "gvfs gvfs-smb", # virtual filesystem
     "smb4k ntfs-3g f2fs-tools", # fs
     "partitionmanager", # kde part manager,
-
     "bluez bluez-utils", # bluetooth,
     "blueman-git", # bluetooth app,
     #Theme,
@@ -59,13 +57,15 @@ $shell = (
     "socat",
     "hyprkeys",
     "yazi",
-    "hyprdock",
+    "parui-git",
+    "pacmixer", # audioMixer
     "fastfetch-git", # swap
     "btop-git rocm-smi-lib", # task manager
     ## nwg
-	"nwg-look", # gtk settings
-	"nwg-displays nwg-icon-picker nwg-drawer nwg-icon-picker nwg-panel",
-    "gtklock-git wlsunset-git nwg-shell-config"
+    "nwg-look", # gtk settings
+    "nwg-displays nwg-icon-picker nwg-drawer nwg-icon-picker nwg-panel",
+    "gtklock-git wlsunset-git nwg-shell-config",
     "lact", # AMDGPU CTL
     "qview-git qtraw qt5-svg qt5-imageformats", # image viewer
+
 )
