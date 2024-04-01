@@ -63,7 +63,8 @@ $extras = (
     # Utilities
     "ascii-image-converter-git",
     "tplay-git",
-    "focus-bin"
+    "focus-bin",
+    "inkscape"
 )
 
 

@@ -1,5 +1,4 @@
 $flat_apps = (
-    "com.boxy_svg.BoxySVG",
     "com.github.tchx84.Flatseal"
 )
 

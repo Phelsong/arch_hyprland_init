@@ -9,7 +9,7 @@ $dev_deps = (
     "rustup",
     "dart-sass",
     "jdk-openjdk",
-	"mojo-git"
+    "mojo-git"
     # CLI/etc
     "micro-git",
     "github-cli",
