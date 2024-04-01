@@ -3,8 +3,7 @@ $apps = (
     "libldac",
     "electron",
     # WEB
-    "microsoft-edge-dev-bin",
-    "opera-developer opera-developer-ffmpeg-codecs",
+    "vivaldi vivaldi-ffmpeg-codecs",
     # yubi
     "yubikey-manager",
     "yubikey-manager-qt",
@@ -25,7 +24,7 @@ $apps = (
     "openrgb",
     "polychromatic",
     # remoting
-    "remmina-git freerdp remmina-plugin-rdesktop remmina-plugin-url remmina-plugin-folder",
+    "remmina-git freerdp remmina-plugin-url remmina-plugin-folder",
     # Work
     "teams-for-linux-git", 
     "owa-desktop-bin",

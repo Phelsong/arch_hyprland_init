@@ -24,20 +24,6 @@ $Desktop = (
     # AUDIO,
     "pavucontrol-qt",
     "pamixer", # audio mixer
-    # video
-    "xwaylandvideobridge-bin",
-    ##
-    "network-manager-applet", # network
-    "ly-git", # greeter
-    "waybar-git", # taskbar
-    "swww-git", # wallpaper-hyprland
-    "waypaper-git", # wallpaper picker gui
-    "anyrun-git", # app launcher
-    "cliphist wl-clip-persist python-pyclip", # text/image clipboard
-    "swaync-git", # notification
-    "grim-git slurp-git", # Screenshot base
-    "flameshot-git", # Screenshots
-    "wayfarer-git", #screen record
     # FILE SYSTEM,
     "gvfs gvfs-smb", # virtual filesystem
     "smb4k ntfs-3g f2fs-tools", # fs
@@ -56,7 +42,7 @@ $Desktop = (
 $shell = (
     "socat",
     "hyprkeys",
-    "yazi",
+    "yazi-git",
     "parui-git",
     "pacmixer", # audioMixer
     "fastfetch-git", # swap
@@ -67,5 +53,16 @@ $shell = (
     "gtklock-git wlsunset-git",
     "lact", # AMDGPU CTL
     "qview-git qtraw qt5-svg qt5-imageformats", # image viewer
-
+    ## "DE"
+    "network-manager-applet", # network
+    "ly-git", # greeter
+    "waybar-git", # taskbar
+    "swww-git", # wallpaper-hyprland
+    "waypaper-git", # wallpaper picker gui
+    "anyrun-git", # app launcher
+    "cliphist wl-clip-persist python-pyclip", # text/image clipboard
+    "swaync-git", # notification
+    "grim-git slurp-git", # Screenshot base
+    "hyprshot-git", # Screenshots
+    "wayfarer-git", #screen record
 )

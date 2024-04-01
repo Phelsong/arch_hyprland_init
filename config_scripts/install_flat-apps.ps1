@@ -1,5 +1,6 @@
 $flat_apps = (
-    "com.discordapp.Discord"
+    "com.boxy_svg.BoxySVG",
+    "com.github.tchx84.Flatseal"
 )
 
 
