@@ -3,7 +3,7 @@ $apps = (
     "libldac",
     "electron",
     # WEB
-    "vivaldi vivaldi-ffmpeg-codecs",
+    "vivaldi-snapshot vivaldi-snapshot-ffmpeg-codecs",
     # yubi
     "yubikey-manager",
     "yubikey-manager-qt",
@@ -26,7 +26,7 @@ $apps = (
     # remoting
     "remmina-git freerdp remmina-plugin-url remmina-plugin-folder",
     # Work
-    "teams-for-linux-git", 
+    "teams-for-linux-git",
     "owa-desktop-bin",
     "wps-office ttf-wps-fonts",
     "openconnect networkmanager-openconnect openconnect-sso-git webkit2gtk-4.1 libnma-gtk4",
@@ -74,6 +74,6 @@ $extras = (
 #sudo systemctl enable waydroid-container
 
 
-# sudo waydroid shell 
+# sudo waydroid shell
 # IN SHELL
 #ANDROID_RUNTIME_ROOT=/apex/com.android.runtime ANDROID_DATA=/data ANDROID_TZDATA_ROOT=/apex/com.android.tzdata ANDROID_I18N_ROOT=/apex/com.android.i18n sqlite3 /data/data/com.google.android.gsf/databases/gservices.db select * from main where name = \ android_id\;

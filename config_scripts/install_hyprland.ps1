@@ -15,12 +15,8 @@ $Desktop = (
     "hyprlock-git",
     "hyprcursors-git",
     "hyprland-git", # WM
-    # FONTS/TERM,
-    "ttf-cascadia-code-nerd", # font in nerd, explicit dependency
-    "ttf-jetbrains-mono-nerd", # font in nerd, explicit dependency
-    "noto-fonts-emoji", # emojicons
+    # TERM,
     "kitty-git", # term
-    "oh-my-posh", # shell prompt
     # AUDIO,
     "pavucontrol-qt",
     "pamixer", # audio mixer
@@ -40,6 +36,11 @@ $Desktop = (
 )
 
 $shell = (
+    "ttf-cascadia-code-nerd", # font in nerd, explicit dependency
+    "ttf-jetbrains-mono-nerd", # font in nerd, explicit dependency
+    "noto-fonts-emoji", # emojicons
+    "oh-my-posh", # shell prompt
+	"keychain",
     "socat",
     "hyprkeys",
     "yazi-git",
@@ -49,7 +50,7 @@ $shell = (
     "btop-git rocm-smi-lib", # task manager
     ## nwg
     "nwg-look", # gtk settings
-    "nwg-displays nwg-icon-picker nwg-drawer nwg-icon-picker",
+    "nwg-displays nwg-icon-picker nwg-drawer",
     "gtklock-git wlsunset-git",
     "lact", # AMDGPU CTL
     "qview-git qtraw qt5-svg qt5-imageformats", # image viewer

@@ -18,11 +18,11 @@ $drivers = (
     "amdfand-bin amdmond-bin amdvold-bin",
     # ===
     # monitoring/testing
-    "radeontool amdguid-wayland-bin vkmark glmark2", 
+    "radeontool amdguid-wayland-bin vkmark glmark2",
     # FIRMWARE
     "fwupd amd-ucode",
     # fido
-    "libfido2-full",
+    "pcsclite libfido2",
     # DISPLAY_SERVER
     "wayland-git",
     # AUDIO libs
