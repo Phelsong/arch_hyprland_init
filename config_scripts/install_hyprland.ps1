@@ -12,10 +12,16 @@ $Desktop = (
     "wlroots-git",
     "xdg-desktop-portal-hyprland-git", # X-portal
     "polkit-kde-agent", # polkit
-    "hyprlock-git",
-    "hyprcursors-git",
     "hyprland-git", # WM
+<<<<<<< Updated upstream
     # TERM,
+=======
+    "hyprlock-git hypridle-git hyprcursors-git222",
+    # FONTS/TERM,
+    "ttf-cascadia-code-nerd", # font in nerd, explicit dependency
+    "ttf-jetbrains-mono-nerd", # font in nerd, explicit dependency
+    "noto-fonts-emoji", # emojicons
+>>>>>>> Stashed changes
     "kitty-git", # term
     # AUDIO,
     "pavucontrol-qt",
@@ -49,8 +55,12 @@ $shell = (
     "fastfetch-git", # swap
     "btop-git rocm-smi-lib", # task manager
     ## nwg
+<<<<<<< Updated upstream
     "nwg-look", # gtk settings
     "nwg-displays nwg-icon-picker nwg-drawer",
+=======
+    "nwg-look nwg-displays nwg-icon-picker nwg-drawer nwg-icon-picker",
+>>>>>>> Stashed changes
     "gtklock-git wlsunset-git",
     "lact", # AMDGPU CTL
     "qview-git qtraw qt5-svg qt5-imageformats", # image viewer

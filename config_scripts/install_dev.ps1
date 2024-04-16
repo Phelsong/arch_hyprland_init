@@ -14,7 +14,8 @@ $dev_deps = (
     "micro-git",
     "github-cli",
     "sqlite",
-    # Python 
+    "yarn-berry",
+    # Python
     "python312",
     "python-keyring-pass",
     "python-requests",
@@ -33,10 +34,18 @@ $dev_deps = (
     "dotnet-host-preview-bin dotnet-runtime-preview-bin dotnet-sdk-preview-bin dotnet-targeting-pack-preview-bin",
     # Android
     "android-sdk-platform-tools scrcpy-full-git",
+
+)
+
+
+$language-servers = (
     # LSPs
     "pyright-git",
     "vscode-langservers-extracted",
     "dockerfile-language-server",
-    "sql-language-server"
+    "sql-language-server",
+    "yaml-language-server",
+    "bash-language-server",
+    ""
     #powershell-editor-services
 )
