@@ -55,12 +55,7 @@ $shell = (
     "fastfetch-git", # swap
     "btop-git rocm-smi-lib", # task manager
     ## nwg
-<<<<<<< Updated upstream
-    "nwg-look", # gtk settings
-    "nwg-displays nwg-icon-picker nwg-drawer",
-=======
     "nwg-look nwg-displays nwg-icon-picker nwg-drawer nwg-icon-picker",
->>>>>>> Stashed changes
     "gtklock-git wlsunset-git",
     "lact", # AMDGPU CTL
     "qview-git qtraw qt5-svg qt5-imageformats", # image viewer
