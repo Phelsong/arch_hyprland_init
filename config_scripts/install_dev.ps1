@@ -49,3 +49,7 @@ $language-servers = (
     ""
     #powershell-editor-services
 )
+
+$docker = (
+	"docker docker-buildx docker-scan docker-scout docker-machine docker-credential-secretservice docker-credential-pass"
+)
