@@ -11,8 +11,7 @@ $dev_deps = (
     "jdk-openjdk",
     "mojo-git"
     # CLI/etc
-    "micro-git",
-    "github-cli",
+    "micro-git"
     "sqlite",
     "yarn-berry",
     # Python
@@ -35,17 +34,4 @@ $dev_deps = (
     # Android
     "android-sdk-platform-tools scrcpy-full-git",
 
-)
-
-
-$language-servers = (
-    # LSPs
-    "pyright-git",
-    "vscode-langservers-extracted",
-    "dockerfile-language-server",
-    "sql-language-server",
-    "yaml-language-server",
-    "bash-language-server",
-    ""
-    #powershell-editor-services
 )

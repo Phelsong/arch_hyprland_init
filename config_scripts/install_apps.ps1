@@ -3,6 +3,7 @@ $apps = (
     "libldac",
     "electron",
     # WEB
+   	"opera-developer opera-developer-ffmpeg-codecs"
     "vivaldi-snapshot vivaldi-snapshot-ffmpeg-codecs",
     # yubi
     "yubikey-manager",
@@ -31,17 +32,14 @@ $apps = (
     "wps-office ttf-wps-fonts",
     "openconnect networkmanager-openconnect openconnect-sso-git webkit2gtk-4.1 libnma-gtk4",
     # OTHER
-    "cue-git", # terminal audio player
     "pyspread", # speadsheets
     "tidal-hifi-git", # muzic
-    "flatpak flatseal",
     # Waydroid
     "waydroid waydroid-image-gapps waydroid-magisk waydroid-settings-git binder_linux-dkms"
 )
 
 $gaming = (
     "steam steam-native",
-    "input-remapper-git",
     "libdxvk dxvk-bin vkd3d-git",
     "ttf-ms-win11-auto  wine-wow64 wine-mono",
     "bottles",
