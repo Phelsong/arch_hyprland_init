@@ -15,7 +15,7 @@ $apps = (
     "github-desktop-bin",
     # azuredatastudio-bin,
     # jupyterlab-desktop-bin,
-    "docker docker-scout docker-buildx docker-compose docker-machine docker-scan docker-desktop",
+    "docker-desktop",
     "postman-bin",
     "beekeeper-studio-ultimate",
     "obsidian-bin",

@@ -35,3 +35,6 @@ $dev_deps = (
     "android-sdk-platform-tools scrcpy-full-git",
 
 )
+
+$docker = (
+	"docker docker-buildx docker-scan docker-scout docker-machine docker-credential-secretservice docker-credential-pass"
