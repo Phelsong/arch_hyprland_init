@@ -9,13 +9,13 @@ $dev_deps = (
     "rustup",
     "dart-sass",
     "jdk-openjdk",
-    "mojo-git"
+	"ruby rubygems",
+    "mojo-git",
     # CLI/etc
-    "micro-git"
     "sqlite",
     "yarn-berry",
     # Python
-    "python312",
+	"python311",
     "python-keyring-pass",
     "python-requests",
     "mypy-git",
@@ -27,7 +27,6 @@ $dev_deps = (
     "ipython",
     "jupyter-server",
     "juypter-console",
-    "python-kivy",
     "python-pipx",
     # dotnet/C#
     "dotnet-host-preview-bin dotnet-runtime-preview-bin dotnet-sdk-preview-bin dotnet-targeting-pack-preview-bin",
@@ -35,6 +34,10 @@ $dev_deps = (
     "android-sdk-platform-tools scrcpy-full-git",
 
 )
+
+$editor = (
+	"helix-git",
+	"micro-git")
 
 $docker = (
 	"docker docker-buildx docker-scan docker-scout docker-machine docker-credential-secretservice docker-credential-pass"

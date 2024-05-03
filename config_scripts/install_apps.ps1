@@ -2,9 +2,11 @@ $apps = (
     # NON-CORE DRIVERS
     "libldac",
     "electron",
+    "ueberzugpp", # temp for warp
     # WEB
-   	"opera-developer opera-developer-ffmpeg-codecs"
+   	"opera-beta opera-beta-ffmpeg-codecs-bin",
     "vivaldi-snapshot vivaldi-snapshot-ffmpeg-codecs",
+    "protonmail-desktop proton-vpn-gtk-app",
     # yubi
     "yubikey-manager",
     "yubikey-manager-qt",
@@ -13,12 +15,9 @@ $apps = (
     # DEV APPS
     "visual-studio-code-insiders-bin",
     "github-desktop-bin",
-    # azuredatastudio-bin,
-    # jupyterlab-desktop-bin,
-    "docker-desktop",
     "postman-bin",
     "beekeeper-studio-ultimate",
-    "obsidian-bin",
+    "obsidian",
     "kleopatra",
     # RAZER
     "openrazer-driver-dkms-git openrazer-daemon-git python-openrazer",
@@ -59,10 +58,13 @@ $extras = (
     # etcher
     "etcher-bin",
     # Utilities
-    "ascii-image-converter-git",
+    "ascii-image-convert",
     "tplay-git",
-    "focus-bin",
-    "inkscape"
+    "fobe-bin",
+    "inkscape",
+    # azuredatastudio-bin,
+    # jupyterlab-desktop-bin,
+    "zed-editor-preview"
 )
 
 
