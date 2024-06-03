@@ -15,6 +15,7 @@ $Desktop = (
     # FONTS/TERM,
     "ttf-cascadia-code-nerd", # font in nerd, explicit dependency
     "ttf-jetbrains-mono-nerd", # font in nerd, explicit dependency
+    "ttf-ms-win11-auto",
     "noto-fonts-emoji", # emojicons
     "kitty-git", # term
     # AUDIO,
@@ -66,7 +67,7 @@ $shell = (
     "lazydocker-git lazygit-git", # tuis
     "yazi-git", # tui file browser
     "parui-git", # tui aur browser
-    "micro-git helix-git" # tui text editors
+    "micro-git helix-git", # tui text editors
     "fastfetch-git", # swap
     "btop-git rocm-smi-lib", # task manager
 )

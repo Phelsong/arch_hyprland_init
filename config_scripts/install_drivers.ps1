@@ -14,8 +14,8 @@ $drivers = (
     "rocm-core",
     # vulkan-extras
     "vulkan-headers vulkan-tools mesa-utils",
-    # CTL
-    "amdfand-bin amdmond-bin amdvold-bin",
+    # video
+    "vulkan-amdgpu-pro amf-amdgpu-pro",
     # ===
     # monitoring/testing
     "radeontool amdguid-wayland-bin vkmark glmark2",
