@@ -8,10 +8,9 @@ $Desktop = (
     "glfw-wayland egl-wayland-git", # wayland gl
     "iwd", # wireless daemon
     # CORE
-    "wlroots-git",
-    "xdg-desktop-portal-hyprland-git", # X-portal
+    "xdg-desktop-portal-hyprland", # X-portal
     "polkit-kde-agent", # polkit
-    "hyprland-git", # WM
+    "hyprland", # WM
     # FONTS/TERM,
     "ttf-cascadia-code-nerd", # font in nerd, explicit dependency
     "ttf-jetbrains-mono-nerd", # font in nerd, explicit dependency
@@ -23,30 +22,27 @@ $Desktop = (
     # FILE SYSTEM,
     "gvfs", # virtual filesystem
     "ntfs-3g f2fs-tools", # fs
-    "partitionmanager", # kde part manager,
     "bluez bluez-utils", # bluetooth,
     #Theme,
-    "dracula-gtk-theme dracula-icons-git",
     "nordic-kde-git",
     "nordic-theme",
     # firewall
     "nftables",
-    "shorewall6"
 )
 
 $shell = (
     "pavucontrol-qt", # audio controls
-    "blueman-git", # bluetooth applet
+    "blueman", # bluetooth applet
     "oh-my-posh", # shell prompt
     ## nwg
-    "nwg-look nwg-displays nwg-icon-picker nwg-drawer nwg-icon-picker", # gui settings
+    "nwg-look nwg-drawer", # gui settings
     "hyprlock-git hypridle-git hyprcursors-git", # lock,idle,cursor daemon
     ## "DE"
-    "ly-git", # greeter
-    "waybar-git", # taskbar
-    "swww-git", # wallpaper daemon
+    "ly", # greeter
+    "waybar", # taskbar
+    "swww", # wallpaper daemon
     "network-manager-applet", # network
-    "lact-git", # AMDGPU CTL
+    "lact", # AMDGPU CTL
     "qview-git qtraw qt5-svg qt5-imageformats", # image viewer
     "waypaper-git", # wallpaper picker gui
     "anyrun-git", # app launcher
@@ -61,8 +57,8 @@ $shell = (
     "hyprkeys", # keybind manager
     "pacmixer", # audioMixer
     "eza", # dir++
-    "zoxide", # jump 
-    "github-cli", # 
+    "zoxide", # jump
+    "github-cli", #
     "socat", # socket cat
     "lazydocker-git lazygit-git", # tuis
     "yazi-git", # tui file browser

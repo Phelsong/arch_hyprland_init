@@ -1,3 +1,3 @@
-pipx install keepercommander
-pipx inject keepercommander fido2
+# pipx install keepercommander
+# pipx inject keepercommander fido2
 

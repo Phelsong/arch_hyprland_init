@@ -4,9 +4,9 @@ $apps = (
     "electron",
     "ueberzugpp", # temp for warp
     # WEB
-   	"opera-beta opera-beta-ffmpeg-codecs-bin",
+   	"opera-developer opera-developer-ffmpeg-codecs-bin",
     "vivaldi-snapshot vivaldi-snapshot-ffmpeg-codecs",
-    "protonmail-desktop proton-vpn-gtk-app",
+    "proton-vpn-gtk-app",
     # yubi
     "yubikey-manager",
     "yubikey-manager-qt",
@@ -14,11 +14,8 @@ $apps = (
     "yubico-piv-tool",
     # DEV APPS
     "visual-studio-code-insiders-bin",
-    "github-desktop-bin",
     "postman-bin",
     "beekeeper-studio-ultimate",
-    "obsidian",
-    "kleopatra",
     # RAZER
     "openrazer-driver-dkms-git openrazer-daemon-git python-openrazer",
     "openrgb",
@@ -32,7 +29,6 @@ $apps = (
     "openconnect networkmanager-openconnect openconnect-sso-git webkit2gtk-4.1 libnma-gtk4",
     # OTHER
     "pyspread", # speadsheets
-    "tidal-hifi-git", # muzic
     # Waydroid
     "waydroid waydroid-image-gapps waydroid-magisk waydroid-settings-git binder_linux-dkms"
 )
@@ -64,7 +60,7 @@ $extras = (
     "inkscape",
     # azuredatastudio-bin,
     # jupyterlab-desktop-bin,
-    "zed-editor-preview"
+    "zed-preview"
 )
 
 
