@@ -1,0 +1,1 @@
+yay -S amdgpu-full-bin amdgpu-pro-installer vulkan-amdgpu-pro lib32-vulkan-amdgpu-pro amdgpu-pro-oglp lib32-amdgpu-pro-oglp amf-amdgpu-pro
