@@ -8,7 +8,7 @@ apps: tuple = (
     # personal
     "proton-mail proton-pass proton-vpn-gtk-app",
     "libation",
-    "tidal-hifi",
+    "tidal-hifi-bin",
     # yubi
     "yubikey-manager",
     "yubikey-manager-qt",
